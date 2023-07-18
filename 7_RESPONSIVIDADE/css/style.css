@@ -1,0 +1,38 @@
+/* 2 - Media query */
+h1 {
+  background-color: yellow;
+  color: blue;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    background-color: blue;
+    color: yellow;
+  }
+}
+
+/* 3 - min width  */
+p {
+  background-color: red;
+  color: silver;
+  font-size: 10px;
+}
+
+@media (min-width: 800px) {
+  p {
+    background-color: pink;
+    color: blue;
+    font-size: 30px;
+  }
+}
+
+/* 4 - landscape */
+h3 {
+  display: none;
+}
+
+@media (orientation: landscape) {
+  h3 {
+    display: block;
+  }
+}
