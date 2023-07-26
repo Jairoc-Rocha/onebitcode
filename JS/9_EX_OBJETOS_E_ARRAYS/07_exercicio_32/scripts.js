@@ -1,5 +1,5 @@
-let frutas = ["Maçã", "Banana", "Melão", "Melância", "Laranja"];
+let nums = [1, 2, 3, 4, 5];
 
-for(let i = 0; i < frutas.length; i++) {
-  console.log(frutas[i]);
+for (let i = 0; i < nums.length; i++) {
+  console.log(nums[i]);
 }

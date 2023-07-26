@@ -1,13 +1,13 @@
-let nums = [1,2,3,4,5,6];
-let nums2 = [1,2,3];
+let arr01 = [1, 2, 3, 4];
+let arr02 = [2, 5, 8, 7, 1, 9, 10, 3];
 
-function verificaElementosArray(arr) {
-  if(arr.length >= 5) {
-    console.log("Muitos elementos");
-  } else {
+const elementos = (el) => {
+  if (el.length < 5) {
     console.log("Poucos elementos");
+  } else {
+    console.log("Muitos elementos");
   }
-}
+};
 
-verificaElementosArray(nums);
-verificaElementosArray(nums2);
+elementos(arr01);
+elementos(arr02);

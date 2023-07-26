@@ -1,7 +1,6 @@
-const frase = "Ser um programador bom requer muita prática";
+let frase = "O rato roeu a roupa do rei de Roma";
+let arrFrase = frase.split(" ");
 
-const arrFrase = frase.split(" ");
-
-for(let i = 0; i < arrFrase.length; i++) {
+for (let i = 0; i < arrFrase.length; i++) {
   console.log(arrFrase[i]);
 }
