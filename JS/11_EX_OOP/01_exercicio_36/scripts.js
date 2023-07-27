@@ -1,24 +1,18 @@
-class Conta {
+class ContaBancaria {
   constructor(saldo) {
     this.saldo = saldo;
   }
-
-  deposito(valor) {
+  depositar(valor) {
     this.saldo += valor;
   }
-
-  saque(valor) {
+  sacar(valor) {
     this.saldo -= valor;
   }
-
 }
 
-let conta = new Conta(1000);
+let conta = new ContaBancaria(2000);
+conta.depositar(500);
+console.log("Saldo = " + conta.saldo);
 
-conta.deposito(1000);
-
-console.log(conta.saldo);
-
-conta.saque(500);
-
-console.log(conta.saldo);
+conta.sacar(1000);
+console.log("Saldo = " + conta.saldo);
